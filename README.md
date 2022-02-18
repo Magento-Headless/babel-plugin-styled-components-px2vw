@@ -1,19 +1,9 @@
-# babel-plugin-styled-components-px2vw
-
-[![npm version](https://badge.fury.io/js/babel-plugin-styled-components-px2vw.svg)](https://badge.fury.io/js/babel-plugin-styled-components-px2vw)
-![NPM Downloads](https://badgen.net/npm/dt/babel-plugin-styled-components-px2vw)
-[![Build Status](https://travis-ci.com/jackluson/babel-plugin-styled-components-px2vw.svg?branch=main)](https://travis-ci.com/jackluson/babel-plugin-styled-components-px2vw)
-[![codecov](https://codecov.io/gh/jackluson/babel-plugin-styled-components-px2vw/branch/main/graph/badge.svg)](https://codecov.io/gh/jackluson/babel-plugin-styled-components-px2vw)
-[![MIT](https://img.shields.io/github/license/jackluson/babel-plugin-styled-components-px2vw?style=plastic)](https://github.com/jackluson/babel-plugin-styled-components-px2vw/blob/main/LICENSE)
-
-English | [中文](README_ZH.md)
+# pwa-babel-plugin-styled-components-px2vw
 
 [Babel](https://babeljs.io/) plugin for convert `px` to `vw` units of [styled-components](https://www.styled-components.com/).
 
 1. Use [postcss-px-to-viewport](https://github.com/evrone/postcss-px-to-viewport) to process all css text in template strings.
 2. Add a runtime `px2vw` function polyfill to process expression embedded in template strings when enable [transformRuntime](#transform-runtime) option.
-
-its inspiration comes from [babel-plugin-styled-components-px2rem](https://github.com/xuyuanxiang/babel-plugin-styled-components-px2rem). Thanks
 
 ## Getting Started
 
