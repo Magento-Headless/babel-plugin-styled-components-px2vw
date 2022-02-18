@@ -1,6 +1,6 @@
 {
   "name": "pwa-babel-plugin-styled-components-px2vw",
-  "version": "1.6.0",
+  "version": "0.0.1",
   "author": "",
   "description": "Babel plugin for convert px to vw units of styled-components",
   "keywords": [
