@@ -1,4 +1,4 @@
-# babel-plugin-styled-components-px2vw-example
+# babel-plugin-headless-styled-components-px2vw-example
 
 ## Get Started
 

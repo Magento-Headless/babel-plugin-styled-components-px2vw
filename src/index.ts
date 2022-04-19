@@ -1,12 +1,3 @@
-/*
- * Desc:
- * File: /src/index.ts
- * Project: node-typescript-template
- * File Created: Saturday, 3rd April 2021 1:26:29 pm
- * Author: luxuemin2108@gmail.com
- * -----
- * Copyright (c) 2021 Camel Lu
- */
 import { ConfigAPI } from '@babel/core';
 import { declare } from '@babel/helper-plugin-utils';
 import { Visitor, NodePath } from '@babel/traverse';

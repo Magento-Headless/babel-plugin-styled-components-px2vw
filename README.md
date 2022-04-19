@@ -1,4 +1,4 @@
-# pwa-babel-plugin-styled-components-px2vw
+# babel-plugin-headless-styled-components-px2vw
 
 [Babel](https://babeljs.io/) plugin for convert `px` to `vw` units of [styled-components](https://www.styled-components.com/).
 
@@ -11,11 +11,11 @@
 
 Add via npm
 
-`$ npm install babel-plugin-styled-components-px2vw --save-dev`
+`$ npm install babel-plugin-headless-styled-components-px2vw --save-dev`
 
 or yarn
 
-`$ yarn add -D babel-plugin-styled-components-px2vw`
+`$ yarn add -D babel-plugin-headless-styled-components-px2vw`
 
 ### Configuration
 
@@ -25,7 +25,7 @@ babel.config.js:
 module.exports = {
   plugins: [
     [
-      'styled-components-px2vw',
+      'headless-styled-components-px2vw',
       {
         unitToConvert: 'px',
         unitPrecision: 5,
@@ -42,7 +42,7 @@ or .babelrc:
 {
   "plugins": [
     [
-      "styled-components-px2vw",
+      "headless-styled-components-px2vw",
       {
         "unitToConvert": 'px',
         "unitPrecision": 5,
@@ -59,7 +59,7 @@ It should be put before [babel-plugin-styled-components](https://github.com/styl
 
 ```json
 {
-  "plugins": ["styled-components-px2vw", "styled-components"]
+  "plugins": ["headless-styled-components-px2vw", "styled-components"]
 }
 ```
 
@@ -458,7 +458,3 @@ const SizeableButton = styled.button(
 ```
 
 </details>
-
-### License
-
-This project is licensed under the [MIT License](https://github.com/jackluson/babel-plugin-styled-components-px2vw/blob/master/LICENSE).
